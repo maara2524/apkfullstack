@@ -4,7 +4,7 @@ function App() {
     const [count, setCount] = useState(0);
 
     const getdata = async () => {
-        const data = await fecth(
+        const data = await fetch(
             'https://apkbackend-iota.vercel.app/api/users',
         );
         console.log(data);
