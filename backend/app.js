@@ -42,4 +42,4 @@ app.get('/api/users/:id', async (req, res) => {
     res.send(targetUser);
 });
 
-app.listen(process.env.PORT);
+app.listen();
